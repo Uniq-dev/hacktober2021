@@ -1,12 +1,5 @@
 import java.util.*;
 
-class NoOfDigInFact{
-	public static void main(String[] args) {
-		Solution s = new Solution();
-		System.out.println(s.digitsInFactorial(5));
-	}	
-}
-
 class Solution{
 	
     public int digitsInFactorial(int N){
@@ -26,4 +19,11 @@ class Solution{
 
 
     
+}
+}
+class NoOfDigInFact{
+	public static void main(String[] args) {
+		Solution s = new Solution();
+		System.out.println(s.digitsInFactorial(5));
+	}	
 }
