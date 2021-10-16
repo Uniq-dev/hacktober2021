@@ -54,5 +54,15 @@ let questions = [
       "16 Megabyte (Mb)"
     ]
   },
-  
+  {
+    numb: 6,
+    question: "Is it possible to have an Inspector on Mobile Safari?",
+    answer: "yes, on iOS 15",
+    options: [
+      "yes",
+      "yes, on iOS 15",
+      "nop",
+        "only on iPads"
+    ]
+  },
 ];
