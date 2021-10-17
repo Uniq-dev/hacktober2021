@@ -6,7 +6,7 @@
 	<meta name ="viewport" content=
 	"width=device-width, initial-scale=1.0">
 
-	<title>PONG GAME</title>
+	<title>PONG 1 GAME</title>
 
 	<style>
 	*{
@@ -18,22 +18,22 @@
 	body {
 		height: 100vh;
 		width: 100vw;
-		background-image: linear-gradient(to top, #ffda77, #ffa45b);
+		background-image: linear-gradient(to top, #a72a8c, #40b123);
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.board {
-		height: 85vh;
-		width: 80vw;
-		background-image: linear-gradient(to right, #5c6e91, #839b97);
+		height: 90vh;
+		width: 70vw;
+		background-image: linear-gradient(to right, #750d3e, #1d0c24);
 		border-radius: 14px;
 	}
 
 	.ball {
-		height: 30px;
-		width: 30px;
+		height: 40px;
+		width: 40px;
 		border-radius: 50%;
 		position: fixed;
 		top: calc(50% - 15px);
@@ -240,7 +240,7 @@
 
 		ball_coord = initial_ball_coord;
 		ball.style = initial_ball.style;
-		message.innerHTML = 'Press Enter to Play Pong';
+		message.innerHTML = ' Enter to Play Pong';
 		message.style.left = 38 + 'vw';
 		return;
 	}
