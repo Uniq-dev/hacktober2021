@@ -8,7 +8,9 @@
 import java.util.*;
 public class CheckPalindrome{
 	public static void main(String args[]){
-		String s = "racecar";
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a string to check if it is palindrome");
+		String s=sc.next();
 		System.out.println(checkPalindromeNaive(s));
 	}
 
